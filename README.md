@@ -1,4 +1,4 @@
-# Lua expliiting guide
+# Luau guide
 
 # Printing and comments
 
