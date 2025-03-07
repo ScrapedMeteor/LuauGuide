@@ -53,6 +53,7 @@ local aura = true
 local MarriageAge = 23
 if MarriageAge < 23 then
     print("no marriage :(")
+end
 ```
 
 # Functions
@@ -61,4 +62,14 @@ local function rizz_up_girl()
     print("hey cutie")
 end
 rizz_up_girl
+```
+
+# Services
+- cloneref (Copys userdata from one to another) (Help avoid detections)
+
+```lua
+-- /w cloneref
+local Players: Players = game:GetService('Players')
+-- w/ cloneref
+local HttpService = cloneref(game:GetService('HttpService'))
 ```
