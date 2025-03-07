@@ -8,7 +8,7 @@
 error("hookfunction not found")
 warn("may not contain meta tables")
 print("100% useable")
--- Error is used when an error in the executor is found such as not getfenv or any other function such as hookfunction
+-- Error is used when an error in the executor is found such as not getfenv or any other function such as hookfunction. Error also has a second argument called level. The second arguement is optional
 ```
 
 # Comments
@@ -64,7 +64,7 @@ if DrinkingAge ~= OtherAge then
 local function rizz_up_girl()
     print("hey cutie")
 end
-rizz_up_girl
+rizz_up_girl()
 ```
 
 # Tables
