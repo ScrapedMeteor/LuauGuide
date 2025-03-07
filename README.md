@@ -83,7 +83,7 @@ local rizz = infinte
 ```
 
 # Boolean 
-``lua
+```lua
 local hawktuah = true
 local talktuah = false
 ```
