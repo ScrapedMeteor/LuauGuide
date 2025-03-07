@@ -49,7 +49,7 @@ Opperators
 - \>= greater than or equal to
 - ~= inequality
 
-``lua
+```lua
 -- example
 local DrinkingAge = 21
 local OtherAge = math.huge
