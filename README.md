@@ -12,8 +12,8 @@ print("hi")
 
 # Variables
 ```lua
-local leaked = sigma
-local IsAlive = lol
+local leaked = sigma -- nil because sigma isn't defined
+local IsAlive = lol -- nil because lol isn't defined
 ```
 
 # Math
@@ -31,7 +31,7 @@ operators
 
 local Age = 18
 local NewAge = Age + 5
-print(NewAge)
+print(NewAge) -- 23
 ```
 
 # Boolean
@@ -53,6 +53,7 @@ local aura = true
 local MarriageAge = 23
 if MarriageAge < 23 then
     print("no marriage :(")
+end
 ```
 
 # Functions
@@ -60,5 +61,10 @@ if MarriageAge < 23 then
 local function rizz_up_girl()
     print("hey cutie")
 end
-rizz_up_girl
+rizz_up_girl()
+
+local function rizz_up_boy(argument)
+    print("hey "..argument)
+end
+rizz_up_boy("bud")
 ```
